@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 __author__ = "Dmitriy Kuptsov"
-__copyright__ = "Copyright 2022, stangebit"
+__copyright__ = "Copyright 2022, strangebit"
 __license__ = "GPL"
 __version__ = "0.0.1b"
 __maintainer__ = "Dmitriy Kuptsov"
@@ -441,7 +441,7 @@ ether_if_th_loop = threading.Thread(target = ether_loop, args = (), daemon = Tru
 heart_beat_th_loop = threading.Thread(target = heart_beat_loop, args = (), daemon = True);
 config_th_loop = threading.Thread(target = config_loop, args = (), daemon = True);
 
-logging.info("Starting the CuteHIP");
+logging.info("Starting the switchd");
 
 hip_th_loop.start();
 ip_sec_th_loop.start();
